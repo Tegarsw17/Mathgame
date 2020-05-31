@@ -53,8 +53,6 @@ if($_SESSION['lives'] <= 0){
 </html>
 
 <?php
-$ans = $a + $b;
-echo $ans;
 if($_POST['jawab']){
     if($_POST['isi'] == $_POST['a']+$_POST['b']){
         $_SESSION['score'] += 10;
